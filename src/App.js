@@ -1,35 +1,29 @@
-import githubLogo from './images/github-mark.png'
-import linkedinLogo from './images/linkedinLogo.png'
-import BlogCard from './components/BlogCard'
+import { Routes, Route } from "react-router-dom"
+import { Home } from '../src/pages/home'
+
+// Projects
+import { BCGetDelivery } from "./pages/projects/bc-get-delivery"
+import { BCDiningHallMenus } from "./pages/projects/bc-dining-hall-menus"
+import { Helium } from "./pages/projects/helium"
+
+// Blogs
+import { ReflectionsOnAYearInProductManagement } from '../src/pages/blogs/reflections-on-a-year-in-product-management'
+import { UsingAWeightedBlanketForAWeek } from '../src/pages/blogs/using-a-weighted-blanket-for-a-week'
+import { WhatIWishIKnewBeforeIStartedJobHunting } from '../src/pages/blogs/what-i-wish-knew-before-i-started-job-hunting'
 
 function App() {
   return (
-    <div className="App">
-
-      <div className='flex flex-row justify-end'>
-        <img
-          onClick={() => window.open("https://github.com/jackantico1","_self")}
-          className='w w-12 h-12 m-3 hover:cursor-pointer' 
-          src={githubLogo} alt="Logo" />
-        <img
-          onClick={() => window.open("https://www.linkedin.com/in/jackantico/","_self")}
-          className='w w-12 h-12 m-3 mr-8' 
-          src={linkedinLogo} alt="Logo" />
-      </div>
-
-      <div className='x mt-20 ml-20'>
-        <h1 className="text-7xl font-bold">Hi, I'm Jack</h1>
-        <h1 className="text-3xl">Welcome to my blog.</h1>
-      </div>
-
-      <div className='flex flex-row flex-wrap'>
-       <BlogCard/>
-       <BlogCard/>
-       <BlogCard/>
-       <BlogCard/>
-      </div>
-
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      {/* Projects */}
+      <Route path='/helium' element={<Helium/>}/>
+      <Route path='/bc-get-delivery' element={<BCGetDelivery/>}/>
+      <Route path='/bc-dining-hall-menus' element={<BCDiningHallMenus/>}/>
+      {/* Blogs */}
+      <Route path='/reflections-on-a-year-in-product-management' element={<ReflectionsOnAYearInProductManagement/>}/>
+      <Route path='using-a-weighted-blanket-for-a-week' element={<UsingAWeightedBlanketForAWeek/>}/>
+      <Route path='what-I-wish-knew-before-I-started-job-hunting' element={<WhatIWishIKnewBeforeIStartedJobHunting/>}/>
+    </Routes>
   );
 }
 
