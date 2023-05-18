@@ -40,15 +40,15 @@ function Home() {
         <div className='flex flex-row flex-wrap ml-10'>
             <BlogCard 
                 title='Reflections on a Year in Product Management' 
-                publishDate='08/08/2019' 
+                publishDate='03/11/2023' 
                 slug='reflections-on-a-year-in-product-management'/>
               <BlogCard 
                 title='Using a Weighted Blanket for a Week' 
-                publishDate='08/08/2019' 
+                publishDate='04/27/2020' 
                 slug='using-a-weighted-blanket-for-a-week'/>
               <BlogCard 
                 title='What I Wish I Knew Before I Started Job Hunting' 
-                publishDate='08/08/2019' 
+                publishDate='09/22/2020' 
                 slug='what-I-wish-knew-before-I-started-job-hunting'/>
         </div>
     </div>

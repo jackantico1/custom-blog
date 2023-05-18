@@ -1,11 +1,10 @@
 import React from "react";
-import HeliumLogo from '../../images/helium-small.jpg'
 import MxMatters from '../../images/cloudinaryPodcast.jpeg' 
 
 function Helium() {
   return (
     <div className="bg-slate-200 w-screen min-h-screen min-w-[500px]">
-        <div className="ml-10 pt-24">
+        <div className="mx-16 pt-24">
             <div className="flex flex-row justify-between">
               <div>
                 <h1 className="text-7xl md:text-9xl">Helium</h1>
@@ -15,7 +14,7 @@ function Helium() {
 
             <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
             <p className="text-xl md:text-3xl">
-                Helium is a headless, open source version of the Thought Industries platform. Thought Industires is an online learning company that allows customers to host and create content. I joined Thought Industries while Helium was still in it's development phase and oversaw the launch and implemntation of it by some of Thought Industries largest customers such as MongoDB and General Assembly.
+                Helium is a headless, open source version of the Thought Industries platform. Thought Industires is an online learning company that allows customers to host and create content. I joined Thought Industries while Helium was still in it's development phase and oversaw the launch and implemntation of it by some of Thought Industries largest customers such as MongoDB and General Assembly. Helium took a lot of inspiration from Shopify's Hydrogen product.
             </p>
             <h1 className="text-xl md:text-3xl mt-4">I served in a variety of functions to support it's succesful launch such as:</h1>
             <div className="ml-24 mt-4 text-xl md:text-3xl">

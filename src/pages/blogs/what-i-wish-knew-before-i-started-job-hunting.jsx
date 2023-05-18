@@ -35,6 +35,15 @@ function WhatIWishIKnewBeforeIStartedJobHunting() {
             <strong>Only do cover letters for jobs you really want.</strong> Take this tip with a grain of salt. I usually tell people to never do cover letters and have refused to do them myself in the past. Now, I can see why they might be useful at smaller companies where there are less applicants as there is a greater chance they actually get read. I would say only write a cover letter for companies with less than 200 employees.
           </p>
         </div>
+
+        <div className="flex flex-row justify-end pb-10">
+          <h1
+              onClick={() =>document.location.href = "/"}
+              className="bg-red-500 mt-12 mr-10 h-full p-2 text-2xl w-32 text-center rounded-md align-middle
+              hover:cursor-pointer hover:bg-red-400"
+              >Back</h1>
+        </div>
+
     </div>
   );
 }
