@@ -1,6 +1,7 @@
 import React from "react";
 import BostonGlobe from '../../images/bostonGlobe.png'
 import TheHeights from '../../images/theHeights.png'
+import BcGetComercial from '../../images/bc_get_delivery.png'
 
 function BCGetDelivery() {
   return (
@@ -21,6 +22,7 @@ function BCGetDelivery() {
               </ul>
             </div>
 
+            {/* ASSETS */}
             <h2 className="mt-10 text-4xl underline">Assets</h2>
             <div className="flex flex-row flex-wrap">
               <img
@@ -32,6 +34,12 @@ function BCGetDelivery() {
                 className="h-40 hover:cursor-pointer" 
                 src={TheHeights} 
                 alt='The Heights' />
+              <img
+                onClick={() => document.location.href = 'https://www.youtube.com/watch?v=dBHswmrfqqw'}
+                src={BcGetComercial}
+                alt="BC Get Delivery Comercial"
+                className="h-60 hover:cursor-pointer" 
+                />
             </div>
 
             <div className="flex flex-row justify-end pb-10">

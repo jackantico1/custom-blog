@@ -27,17 +27,36 @@ function Home() {
         <div className='flex flex-row flex-wrap ml-10'>
           <ProjectCard
                 title='Helium'
-                slug='helium'/>
+                slug='helium'
+                dates={'3/22 - 11/23'}/>
             <ProjectCard
                 title='BC GET Delivery'
-                slug='bc-get-delivery'/>
+                slug='bc-get-delivery'
+                dates={'11/17 - 3/19'}/>
+            <ProjectCard
+                title='A/B Tests @ Target'
+                slug='target'
+                dates={'5/20 - 8/20'}/>
+            <ProjectCard
+                title='ReturnLogic'
+                slug='returnlogic'
+                dates={'7/21 - 3/22'}/>
+            <ProjectCard
+                title='Jibra'
+                slug='jibra'
+                dates={'3/22 - 11/23'}/>
             <ProjectCard
                 title='BC Dining Hall Menus'
-                slug='bc-dining-hall-menus'/>
+                slug='bc-dining-hall-menus'
+                dates={'3/22 - 11/23'}/>
         </div>
 
         <h1 className='text-2xl md:text-4xl mt-10 ml-10 underline'>Blogs</h1>
         <div className='flex flex-row flex-wrap ml-10'>
+          <BlogCard 
+                title='Pixels: Crypto Game Review' 
+                publishDate='02/18/2023' 
+                slug='pixels'/>
             <BlogCard 
                 title='Reflections on a Year in Product Management' 
                 publishDate='03/11/2023' 
