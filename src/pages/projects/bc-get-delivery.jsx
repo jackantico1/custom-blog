@@ -1,7 +1,7 @@
 import React from "react";
 import BostonGlobe from '../../images/bostonGlobe.png'
 import TheHeights from '../../images/theHeights.png'
-import BcGetComercial from '../../images/bc_get_delivery.png'
+import BcGetCommercial from '../../images/bc_get_delivery.png'
 
 function BCGetDelivery() {
   return (
@@ -12,13 +12,13 @@ function BCGetDelivery() {
 
             <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
             <p className="text-xl md:text-3xl">
-                I co-founded BC GET Delivery with JB Bruggerman during my freshman year at Boston College. I worked primarily in Sales and Operations. We particpated in the Shea Center for Entreneurship accelerator program which gave us some seed money, access to legal resources, and mentorship. Some highlights include:
+                I co-founded BC GET Delivery with JB Bruggerman during my freshman year at Boston College. I worked primarily in Sales and Operations. We participated in the Shea Center for Entrepreneurship accelerator program which gave us some seed money, access to legal resources, and mentorship. Some highlights include:
             </p>
             <div className="ml-24 mt-4 text-xl md:text-3xl">
               <ul className="list-disc">
                 <li>I trained 15+ GET'ers, our delivery team of other college students and delivered over 250 orders myself personally.</li>
                 <li>I organized and ran Day Of GET, an on campus stunt where co-founder and I "lived" on the campus quad in a tent meant to represent a dorm room for 24 hours. During class changes—when the quad had the most food traffic-we would stage deliveries.</li>
-                <li>I met with VP of BC Athetlics to introduce luxury food delivery service during football games</li>
+                <li>I met with VP of BC Athletics to introduce luxury food delivery service during football games</li>
               </ul>
             </div>
 
@@ -36,8 +36,8 @@ function BCGetDelivery() {
                 alt='The Heights' />
               <img
                 onClick={() => document.location.href = 'https://www.youtube.com/watch?v=dBHswmrfqqw'}
-                src={BcGetComercial}
-                alt="BC Get Delivery Comercial"
+                src={BcGetCommercial}
+                alt="BC Get Delivery Commercial"
                 className="h-60 hover:cursor-pointer" 
                 />
             </div>

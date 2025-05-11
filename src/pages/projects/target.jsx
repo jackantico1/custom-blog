@@ -10,7 +10,7 @@ function Target() {
 
               <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
               <p className="text-xl md:text-3xl">
-                  In the summer of 2020, I was a Product Management Intern at Target in their same day delivery subsidiary Shipt. I worked mostly on the growth team where I ran several A/B tests related to retention and feature usage. I was able to improve the use of the pro-active subsition feature by 20% by changing the UI to make it more prominent. I also worked on an A/B test related to pricing, where I actually broke the Shipt checkout for a couple of hourss late on a Friday afternoon. Note to self: don't push to production on a Friday.
+                  In the summer of 2020, I was a Product Management Intern at Target in their same day delivery subsidiary Shipt. I worked mostly on the growth team where I ran several A/B tests related to retention and feature usage. I was able to improve the use of the pro-active subsition feature by 20% by changing the UI to make it more prominent. I also worked on an A/B test related to pricing, where I actually broke the Shipt checkout for a couple of hours late on a Friday afternoon. Note to self: don't push to production on a Friday.
               </p>
           </div>
           <div className="flex flex-row justify-end pb-10">

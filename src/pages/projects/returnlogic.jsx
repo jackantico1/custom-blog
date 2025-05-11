@@ -10,7 +10,7 @@ function ReturnLogic() {
 
               <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
               <p className="text-xl md:text-3xl">
-                  At ReturnLogic, I worked as a Data Engineer / Analyst. ReturnLogic was a reverse logistics company, helping Shopify sellers manage their returns. I was responsible for building out various data pipelines and dashboards to report on Analytics to our top customers. For one customer, I helped to reduce their return rate by 50% for serveral products after discovering a sizing discrepancy.
+                  At ReturnLogic, I worked as a Data Engineer / Analyst. ReturnLogic was a reverse logistics company, helping Shopify sellers manage their returns. I was responsible for building out various data pipelines and dashboards to report on Analytics to our top customers. For one customer, I helped to reduce their return rate by 50% for several products after discovering a sizing discrepancy.
               </p>
           </div>
           <div className="flex flex-row justify-end pb-10">

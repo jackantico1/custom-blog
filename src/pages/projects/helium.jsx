@@ -17,12 +17,12 @@ function Helium() {
 
             <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
             <p className="text-xl md:text-3xl">
-                Helium is a headless, open source version of the Thought Industries platform. Thought Industires is an online learning company that allows customers to host and create content. I joined Thought Industries while Helium was still in it's development phase and oversaw the launch and implemntation of it by some of Thought Industries largest customers such as MongoDB and General Assembly. Helium took a lot of inspiration from Shopify's Hydrogen product. We also launched a new GraphQL API to support Helium which now proccesses over three million requests per month.
+                Helium is a headless, open source version of the Thought Industries platform. Thought Industries is an online learning company that allows customers to host and create content. I joined Thought Industries while Helium was still in its development phase and oversaw the launch and implementation of it by some of Thought Industries largest customers such as MongoDB and General Assembly. Helium took a lot of inspiration from Shopify's Hydrogen product. We also launched a new GraphQL API to support Helium which now processes over three million requests per month.
             </p>
-            <h1 className="text-xl md:text-3xl mt-4">I served in a variety of functions to support it's succesful launch such as:</h1>
+            <h1 className="text-xl md:text-3xl mt-4">I served in a variety of functions to support its successful launch such as:</h1>
             <div className="ml-24 mt-4 text-xl md:text-3xl">
                 <h1 className="my-4"><strong>Sales Engineer:</strong> I ran over 35+ developer sessions with various prospects</h1>
-                <h1 className="my-4"><strong>Community Manager:</strong> I created and grew the Ti Developer Discord community from 0 -{">"} 150 community memebers and exchanged 500+ support messages with various 3rd party engineers as they explored Hehlium</h1>
+                <h1 className="my-4"><strong>Community Manager:</strong> I created and grew the Ti Developer Discord community from 0 -{">"} 150 community members and exchanged 500+ support messages with various 3rd party engineers as they explored Helium</h1>
                 <h1 className="my-4"><strong>Technical Writer:</strong> I created the Ti Developer Guide series which has 600+ views on Youtube and wrote all technical documentation on the Helium Developer site.</h1>
             </div>
 

@@ -10,7 +10,7 @@ function Jibra() {
 
               <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
               <p className="text-xl md:text-3xl">
-                  Jibra was a softare development studio that I operated from 2019 to 2021. I worked with sereveral clients to launch over 4 apps to the iOS app store, including a social media app called Cajun Connection and productity app called New Heights. I shut down Jibra in 2021 when I started working full time at a startup.
+                  Jibra was a software development studio that I operated from 2019 to 2021. I worked with several clients to launch over 4 apps to the iOS app store, including a social media app called Cajun Connection and productivity app called New Heights. I shut down Jibra in 2021 when I started working full time at a startup.
               </p>
           </div>
           <div className="flex flex-row justify-end pb-10">
