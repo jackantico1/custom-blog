@@ -69,6 +69,10 @@ function Home() {
                 title='What I Wish I Knew Before I Started Job Hunting' 
                 publishDate='09/22/2020' 
                 slug='what-I-wish-knew-before-I-started-job-hunting'/>
+              <BlogCard 
+                title='Lovable Projects' 
+                publishDate='TBD' 
+                slug='lovable-projects'/>
         </div>
     </div>
   );
