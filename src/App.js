@@ -14,6 +14,7 @@ import { Pixels } from '../src/pages/blogs/pixels'
 import { ReflectionsOnAYearInProductManagement } from '../src/pages/blogs/reflections-on-a-year-in-product-management'
 import { UsingAWeightedBlanketForAWeek } from '../src/pages/blogs/using-a-weighted-blanket-for-a-week'
 import { WhatIWishIKnewBeforeIStartedJobHunting } from '../src/pages/blogs/what-i-wish-knew-before-i-started-job-hunting'
+import { LovableProjects } from '../src/pages/blogs/lovable-projects'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path='/reflections-on-a-year-in-product-management' element={<ReflectionsOnAYearInProductManagement/>}/>
       <Route path='using-a-weighted-blanket-for-a-week' element={<UsingAWeightedBlanketForAWeek/>}/>
       <Route path='what-I-wish-knew-before-I-started-job-hunting' element={<WhatIWishIKnewBeforeIStartedJobHunting/>}/>
+      <Route path='/lovable-projects' element={<LovableProjects/>}/>
     </Routes>
   );
 }
