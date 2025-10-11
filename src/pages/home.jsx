@@ -25,10 +25,18 @@ function Home() {
 
         <h1 className='text-2xl md:text-4xl mt-10 ml-10 underline'>Projects I've Worked On</h1>
         <div className='flex flex-row flex-wrap ml-10'>
+          {/* <ProjectCard
+                title='AI Experiments'
+                slug='ai-experiments'
+                dates={'3/22 - 11/23'}/> */}
           <ProjectCard
                 title='Helium'
                 slug='helium'
                 dates={'3/22 - 11/23'}/>
+            <ProjectCard
+                title='RPA @ Canoe'
+                slug='rpa-canoe'
+                dates={'4/24 - 5/25'}/>
             <ProjectCard
                 title='BC GET Delivery'
                 slug='bc-get-delivery'
@@ -53,6 +61,10 @@ function Home() {
 
         <h1 className='text-2xl md:text-4xl mt-10 ml-10 underline'>Blogs</h1>
         <div className='flex flex-row flex-wrap ml-10'>
+          <BlogCard 
+                title='Building an AI Notetaker with Loveable' 
+                publishDate='08/17/2025' 
+                slug='building-an-ai-notetaker-with-loveable'/>
           <BlogCard 
                 title='Pixels: Crypto Game Review' 
                 publishDate='02/18/2023' 
