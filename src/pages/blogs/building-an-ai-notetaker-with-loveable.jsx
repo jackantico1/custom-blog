@@ -25,9 +25,19 @@ function BuildingAnAINotetakerWithLoveable() {
                 <p className="text-xl md:text-3xl mb-6">
                     I first looked at Otter.ai. Their freemium was not very generous and I found their pricing laughable at $20 a month. I also took a quick look at Fireflies. Its free tier wasn't that generous and I was feeling creative so I decided to see how hard it would be to build a clone of this.
                 </p>
-                <p className="text-xl md:text-3xl mb-6">
-                    Look at the demo I built here!
-                </p>
+                <div className="bg-blue-100 border-l-4 border-blue-500 p-6 mb-6 rounded-lg">
+                    <p className="text-xl md:text-3xl font-bold text-blue-800 mb-4">
+                        🚀 Check out the demo I built!
+                    </p>
+                    <a 
+                        href="https://preview--speak-to-summarize-now.lovable.app/auth" 
+                        className="text-blue-600 hover:text-blue-800 underline font-bold text-xl md:text-3xl"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View AI Notetaker Demo →
+                    </a>
+                </div>
 
                 <h2 className="mt-10 text-3xl md:text-4xl underline">Build Process</h2>
                 <p className="text-xl md:text-3xl mb-6">

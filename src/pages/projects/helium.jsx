@@ -17,7 +17,7 @@ function Helium() {
 
             <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
             <p className="text-xl md:text-3xl">
-                Helium is a headless, open source version of the Thought Industries platform. Thought Industries is an online learning company that allows customers to host and create content. I joined Thought Industries while Helium was still in its development phase and oversaw the launch and implementation of it by some of Thought Industries largest customers such as MongoDB and General Assembly. Helium took a lot of inspiration from Shopify's Hydrogen product. We also launched a new GraphQL API to support Helium which now processes over three million requests per month.
+                <a href="https://www.developer.thoughtindustries.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Helium</a> is a headless, open source version of the Thought Industries platform. Thought Industries is an online learning company that allows customers to host and create content. I joined Thought Industries while Helium was still in its development phase and oversaw the launch and implementation of it by some of Thought Industries largest customers such as MongoDB and General Assembly. Helium took a lot of inspiration from Shopify's Hydrogen product. We also launched a new GraphQL API to support Helium which now processes over three million requests per month.
             </p>
             <h1 className="text-xl md:text-3xl mt-4">I served in a variety of functions to support its successful launch such as:</h1>
             <div className="ml-24 mt-4 text-xl md:text-3xl">

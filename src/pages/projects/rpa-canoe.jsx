@@ -10,14 +10,14 @@ function RPACanoe() {
 
               <h2 className="mt-10 text-3xl md:text-4xl underline">About</h2>
               <p className="text-xl md:text-3xl mb-6">
-                  Canoe Intelligence is a fintech startup that collects and extracts data from financial documents (K1s, Capital Calls) for PE firms, family offices, and large institutions like JPM, State Street, and PWC, to automate their back office. I joined where they were Series B and was there when they raised a Series C.
+                  <a href="https://www.crunchbase.com/organization/canoe-software" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Canoe Intelligence</a> is a fintech startup that collects and extracts data from financial documents (K1s, Capital Calls) for PE firms, family offices, and large institutions like JPM, State Street, and PWC, to automate their back office. I joined during the Series B and left post Series C.
               </p>
               <p className="text-xl md:text-3xl">
-                I was the Lead PM for the integrations guild of 5 developers and one QA analyst.
+                I was the Lead PM for the integrations guild of 5 developers and one QA analyst. I was one of two PMs for the Canoe Connect product, which focused on the document collection. About 50% of the documents were collected via automation and the other 50% were collected via manual collection.
               </p>
               <h1 className="text-xl md:text-3xl mt-4">Some of the various projects I worked on:</h1>
                 <div className="ml-24 mt-4 text-xl md:text-3xl">
-                    <h1 className="my-4"><strong>RPA Program Build Out: </strong> I launched six RPA integrations with financial portals such as KKR and Apollo, reducing the need for human manual collection by over 200 hours / week, saving company 50k in manual costs. I also reduced the error rate for automated collection of documents from 12% to 3% by leading project for new email ingestion service, leading to over 150k in cost savings for operations team </h1>
+                    <h1 className="my-4"><strong>RPA Program Build Out: </strong> I launched six RPA integrations with financial portals such as KKR and Apollo, reducing the need for human manual collection by over 200 hours / week, saving the company 50k in manual costs. I also reduced the error rate for automated document collection from 12% to 3% by leading project for new email ingestion service, leading to over 150k in cost savings for operations team </h1>
                     <h1 className="my-4"><strong>Process Design w/ Ops:</strong>Ran a data clean up project, increasing automated vs manual collection rate by 15% with better oversight of offshore manual collection team.</h1>
                     <h1 className="my-4"><strong>Data Analysis:</strong>Manually uploaded 50+ google sheets of doc collection data to Snowflake, analysis of which lead to complete reprioritization of which financial portals to build RPA and API integrations with. Did other data analysis project which discovered the over 50% of documents manually collected were duplicates, leading to other product changes.</h1>
                 </div>
