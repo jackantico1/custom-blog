@@ -12,6 +12,7 @@ import { RPACanoe } from "./pages/projects/rpa-canoe"
 import { Pixels } from "./pages/blogs/pixels"
 import { BuildingAnAINotetakerWithLoveable } from "./pages/blogs/building-an-ai-notetaker-with-loveable"
 import { Austin } from "./pages/blogs/austin"
+import { RandomMusingsOnAI } from "./pages/blogs/random-musings-on-ai"
 import { ReflectionsOnAYearInProductManagement } from '../src/pages/blogs/reflections-on-a-year-in-product-management'
 import { UsingAWeightedBlanketForAWeek } from '../src/pages/blogs/using-a-weighted-blanket-for-a-week'
 import { WhatIWishIKnewBeforeIStartedJobHunting } from '../src/pages/blogs/what-i-wish-knew-before-i-started-job-hunting'
@@ -32,6 +33,7 @@ function App() {
       <Route path="/pixels" element={<Pixels/>}/>
       <Route path='/building-an-ai-notetaker-with-loveable' element={<BuildingAnAINotetakerWithLoveable/>}/>
       <Route path='/austin' element={<Austin/>}/>
+      <Route path='/random-musings-on-ai' element={<RandomMusingsOnAI/>}/>
       <Route path='/reflections-on-a-year-in-product-management' element={<ReflectionsOnAYearInProductManagement/>}/>
       <Route path='using-a-weighted-blanket-for-a-week' element={<UsingAWeightedBlanketForAWeek/>}/>
       <Route path='what-I-wish-knew-before-I-started-job-hunting' element={<WhatIWishIKnewBeforeIStartedJobHunting/>}/>

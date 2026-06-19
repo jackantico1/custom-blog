@@ -61,9 +61,13 @@ function Home() {
 
         <h1 className='text-2xl md:text-4xl mt-10 ml-10 underline'>Blogs</h1>
         <div className='flex flex-row flex-wrap ml-10'>
-        <BlogCard 
-                title='Moving to Austin' 
-                publishDate='10/25/2025' 
+        <BlogCard
+                title='Random Musings on AI'
+                publishDate='06/18/2026'
+                slug='random-musings-on-ai'/>
+          <BlogCard
+                title='Moving to Austin'
+                publishDate='10/25/2025'
                 slug='austin'/>
           <BlogCard 
                 title='Building an AI Notetaker with Loveable' 
