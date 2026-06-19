@@ -1,7 +1,6 @@
 import React from "react";
 import MxMatters from '../../images/cloudinaryPodcast.jpeg'
 import YahooFinance from '../../images/yahoo_finance.png'
-import HeliumSmall from '../../images/helium-small.jpg'
 import HeliumTransparent from '../../images/helium_small_w_trans.png'
 
 function Helium() {
