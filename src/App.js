@@ -9,6 +9,8 @@ import { Helium } from "./pages/projects/helium"
 import { Jibra } from "./pages/projects/jibra"
 import { ReturnLogic } from "./pages/projects/returnlogic"
 import { RPACanoe } from "./pages/projects/rpa-canoe"
+import { Wayfinder } from "./pages/projects/wayfinder"
+import { GarminMCP } from "./pages/projects/garmin-mcp"
 import { Pixels } from "./pages/blogs/pixels"
 import { BuildingAnAINotetakerWithLoveable } from "./pages/blogs/building-an-ai-notetaker-with-loveable"
 import { Austin } from "./pages/blogs/austin"
@@ -29,6 +31,8 @@ function App() {
       <Route path='/target' element={<Target/>}/>
       <Route path='/jibra' element={<Jibra/>}/>
       <Route path='/bc-dining-hall-menus' element={<BCDiningHallMenus/>}/>
+      <Route path='/wayfinder' element={<Wayfinder/>}/>
+      <Route path='/garmin-mcp' element={<GarminMCP/>}/>
       {/* Blogs */}
       <Route path="/pixels" element={<Pixels/>}/>
       <Route path='/building-an-ai-notetaker-with-loveable' element={<BuildingAnAINotetakerWithLoveable/>}/>

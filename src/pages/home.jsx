@@ -23,12 +23,16 @@ function Home() {
           <h1 className="text-2xl md:text-3xl">Welcome to my website.</h1>
         </div>
 
+        <h1 className='text-2xl md:text-4xl mt-10 ml-10 underline'>AI Experiments</h1>
+        <div className='flex flex-row flex-wrap ml-10'>
+            <ProjectCard
+                title='Building a Garmin MCP'
+                slug='garmin-mcp'
+                dates={'2026'}/>
+        </div>
+
         <h1 className='text-2xl md:text-4xl mt-10 ml-10 underline'>Projects I've Worked On</h1>
         <div className='flex flex-row flex-wrap ml-10'>
-          {/* <ProjectCard
-                title='AI Experiments'
-                slug='ai-experiments'
-                dates={'3/22 - 11/23'}/> */}
           <ProjectCard
                 title='Helium'
                 slug='helium'
