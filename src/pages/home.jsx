@@ -26,6 +26,10 @@ function Home() {
         <h1 className='text-2xl md:text-4xl mt-10 ml-10 underline'>AI Experiments</h1>
         <div className='flex flex-row flex-wrap ml-10'>
             <ProjectCard
+                title='Creating a Software Factory'
+                slug='software-factory'
+                dates={'2026'}/>
+            <ProjectCard
                 title='Building a Garmin MCP'
                 slug='garmin-mcp'
                 dates={'2026'}/>

@@ -11,6 +11,7 @@ import { ReturnLogic } from "./pages/projects/returnlogic"
 import { RPACanoe } from "./pages/projects/rpa-canoe"
 import { Wayfinder } from "./pages/projects/wayfinder"
 import { GarminMCP } from "./pages/projects/garmin-mcp"
+import { SoftwareFactory } from "./pages/projects/software-factory"
 import { Pixels } from "./pages/blogs/pixels"
 import { BuildingAnAINotetakerWithLoveable } from "./pages/blogs/building-an-ai-notetaker-with-loveable"
 import { Austin } from "./pages/blogs/austin"
@@ -33,6 +34,7 @@ function App() {
       <Route path='/bc-dining-hall-menus' element={<BCDiningHallMenus/>}/>
       <Route path='/wayfinder' element={<Wayfinder/>}/>
       <Route path='/garmin-mcp' element={<GarminMCP/>}/>
+      <Route path='/software-factory' element={<SoftwareFactory/>}/>
       {/* Blogs */}
       <Route path="/pixels" element={<Pixels/>}/>
       <Route path='/building-an-ai-notetaker-with-loveable' element={<BuildingAnAINotetakerWithLoveable/>}/>
