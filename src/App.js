@@ -12,6 +12,7 @@ import { RPACanoe } from "./pages/projects/rpa-canoe"
 import { Wayfinder } from "./pages/projects/wayfinder"
 import { GarminMCP } from "./pages/projects/garmin-mcp"
 import { SoftwareFactory } from "./pages/projects/software-factory"
+import { RunningMyOwnAI } from "./pages/projects/running-my-own-ai"
 import { Pixels } from "./pages/blogs/pixels"
 import { BuildingAnAINotetakerWithLoveable } from "./pages/blogs/building-an-ai-notetaker-with-loveable"
 import { Austin } from "./pages/blogs/austin"
@@ -35,6 +36,7 @@ function App() {
       <Route path='/wayfinder' element={<Wayfinder/>}/>
       <Route path='/garmin-mcp' element={<GarminMCP/>}/>
       <Route path='/software-factory' element={<SoftwareFactory/>}/>
+      <Route path='/running-my-own-ai' element={<RunningMyOwnAI/>}/>
       {/* Blogs */}
       <Route path="/pixels" element={<Pixels/>}/>
       <Route path='/building-an-ai-notetaker-with-loveable' element={<BuildingAnAINotetakerWithLoveable/>}/>

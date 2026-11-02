@@ -30,6 +30,10 @@ function Home() {
                 slug='software-factory'
                 dates={'2026'}/>
             <ProjectCard
+                title='Running my Own AI'
+                slug='running-my-own-ai'
+                dates={'2026'}/>
+            <ProjectCard
                 title='Building a Garmin MCP'
                 slug='garmin-mcp'
                 dates={'2026'}/>
